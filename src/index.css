@@ -7,21 +7,24 @@
 }
 
 :root {
+  /* color */
   --black-color: #191919;
   --main-color: #DA7B4B;
   --gray-color: #F1F1F1;
-  --fz-title: 2rem;
+  --white-color: #fff;
+  /* font size */
+  --fz-title: 50px;
   --fz-sub-title: 1.5rem;
   --fz-paragraph: 1rem;
+  --fz-22px: 22px;
 }
-/* fz = font-size */
+
 
 body {
   font-family: 'Manrope', sans-serif;
 }
 
 .container {
-  width: 85vw;
+  width: 80vw;
   margin: auto;
 }
-
