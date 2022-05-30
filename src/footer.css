@@ -51,3 +51,37 @@ footer .item2 .footerUL2 li {
 }
 
 /* end footer */
+@media screen and ( min-width: 400px) and (max-width:768px) {
+    footer .footerContent{
+        display: block;
+    }
+    footer .item1{
+        width: 100%;
+    }
+    footer .item2{
+        width: 100%;
+    }
+    footer .item2 {
+        justify-content: start;
+    }
+    footer .item2 .footerUL1{
+        justify-content: start;
+    }
+    footer .item2 .footerUL1 li{
+        margin-left: 0;
+        margin-right: 17px;
+    }
+    footer .item2{
+        margin-top: 30px;
+    }
+    footer .item2 .footerUL2{
+        justify-content: start;
+    }
+    footer .item2 .footerUL2 li{
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    footer .item2 .footerUL2{
+        margin-top: 30px;
+    }
+}
