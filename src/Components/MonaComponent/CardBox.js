@@ -4,19 +4,20 @@ import speaker from "../../Images/speaker.png";
 import speaker1 from "../../Images/speaker1.png";
 import "../../index.css";
 import "../../media.css";
+import { IoIosArrowForward } from 'react-icons/io';
 
 export default class Card extends React.Component {
   render() {
     return (
       <>
-        <div className="container-card">
+        <section className="container-card">
           <div className="card">
             <div className="cont-img">
               <img src={headPhone} alt="headPhone" />
             </div>
             <div className="inner-box-card">
               <h2>headphones</h2>
-              <p>shop</p>
+              <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a>
             </div>
           </div>
           <div className="card">
@@ -25,7 +26,7 @@ export default class Card extends React.Component {
             </div>
             <div className="inner-box-card">
               <h2>speakers</h2>
-              <p>shop</p>
+              <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a>
             </div>
           </div>
           <div className="card">
@@ -34,20 +35,20 @@ export default class Card extends React.Component {
             </div>
             <div className="inner-box-card">
               <h2>earphones</h2>
-              <p>shop</p>
+              <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a>
             </div>
           </div>
-        </div>
-        <div className="container-box">
+        </section>
+        <section className="container-box">
           <div className="left-box"><img src={speaker1} alt="speaker" /></div>
           <div className="right-box">
             <h2>
               zx9<br/> speaker
             </h2>
-            <p>Upgrade to premium speakers that are <br/>phenomenally built to deliver truly remarkable  <br/> sound </p>
-            <div><button className="btn-see">see product</button></div>
+            <p>Upgrade to premium speakers that are <br/>phenomenally built to deliver truly remarkable sound </p>
+            <div className="flex"><button className="btn-see">see product</button></div>
           </div>
-        </div>
+        </section>
       </>
     );
   }

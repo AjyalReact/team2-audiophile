@@ -12,6 +12,7 @@
   --main-color: #DA7B4B;
   --gray-color: #F1F1F1;
   --white-color: #fff;
+  --text-gary: #8C8C8C;
   /* font size */
   --fz-title: 50px;
   --fz-sub-title: 1.5rem;
@@ -28,6 +29,7 @@ body {
   width: 80vw;
   margin: auto;
 }
+
 /* start section cards */
 .container-card {
   display: flex;
@@ -39,7 +41,7 @@ body {
 .card {
   width: calc(95%/3);
   height: 400px;
-  min-width: 350px;
+  /* min-width: 350px; */
 }
 
 .card .inner-box-card {
@@ -64,34 +66,45 @@ body {
 }
 
 .card h2,
-.card p {
+.card a {
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
-.card p {
+.card a {
   margin-bottom: 2.5rem;
   font-size: var(--fz-paragraph);
   font-weight: 900;
+  text-decoration: none;
+  color: var(--text-gary);
+}
+
+.icon {
+  color: var(--main-color);
+  transform: translate(4px, 2px);
 }
 
 /* section speaker */
 .container-box {
   background-color: var(--main-color);
-  height: 600px;
+  height: 550px;
   border-radius: 8px;
   margin-bottom: 3rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .container-box .left-box {
   width: 60%;
   overflow: hidden;
+  position: relative;
 }
 
 .container-box .left-box img {
-  height: 750px;
-  margin-top: 90px;
+  position: absolute;
+  height: 680px;
+  top: 16%;
+  right: 0;
 }
 
 .container-box .right-box {
@@ -100,6 +113,7 @@ body {
   justify-content: center;
   color: var(--white-color);
   width: 40%;
+  padding-right: 1rem;
 }
 
 .right-box h2 {
@@ -120,6 +134,7 @@ body {
   color: var(--white-color);
   padding: 1.2rem 4rem;
   border: none;
-  font-size: var(--fz-22px);
+  font-size: var(--fz-paragraph);
   cursor: pointer;
+  text-transform: uppercase;
 }
