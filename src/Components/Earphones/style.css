@@ -1,0 +1,36 @@
+.earpones-sec {
+  padding: 2rem 0 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.earpones-sec .image-div img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.earpones-sec .content-div {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0rem 0px 0px 4rem;
+  border-radius: 0.5rem;
+}
+.content-div .sec-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px) {
+  .earpones-sec {
+    grid-template-columns: 1fr;
+  }
+  .earpones-sec .content-div {
+    padding: 4rem 1rem;
+  }
+}
