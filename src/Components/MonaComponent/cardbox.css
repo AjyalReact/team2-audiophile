@@ -1,0 +1,110 @@
+@import url(../../index.css);
+
+/* start section cards */
+.container-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.card {
+  width: calc(95%/3);
+  height: 400px;
+  /* min-width: 350px; */
+}
+
+.card .inner-box-card {
+  background-color: var(--gray-color);
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 8px;
+}
+
+.cont-img {
+  height: 35%;
+}
+
+.cont-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 65px;
+}
+
+.card h2,
+.card a {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.card a {
+  margin-bottom: 2.5rem;
+  font-size: var(--fz-paragraph);
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--text-gary);
+}
+
+.icon {
+  color: var(--main-color);
+  transform: translate(4px, 2px);
+}
+
+/* section speaker */
+.container-box {
+  background-color: var(--main-color);
+  height: 550px;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-box .left-box {
+  width: 60%;
+  overflow: hidden;
+  position: relative;
+}
+
+.container-box .left-box img {
+  position: absolute;
+  height: 680px;
+  top: 16%;
+  right: 0;
+}
+
+.container-box .right-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white-color);
+  width: 40%;
+  padding-right: 1rem;
+}
+
+.right-box h2 {
+  font-size: var(--fz-title);
+  line-height: 50px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.right-box p {
+  font-size: var(--fz-22px);
+  font-weight: 100;
+  margin-bottom: 3rem;
+}
+
+.container-box .btn-see {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 1.2rem 4rem;
+  border: none;
+  font-size: var(--fz-paragraph);
+  cursor: pointer;
+  text-transform: uppercase;
+}
