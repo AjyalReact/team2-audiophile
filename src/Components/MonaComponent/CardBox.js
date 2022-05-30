@@ -6,7 +6,7 @@ import "./cardbox.css";
 import "../../media.css";
 import { IoIosArrowForward } from 'react-icons/io';
 
-export default class Card extends React.Component {
+export default class CardBox extends React.Component {
   render() {
     return (
       <>

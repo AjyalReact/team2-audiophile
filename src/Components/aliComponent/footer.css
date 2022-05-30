@@ -7,7 +7,7 @@ footer {
 footer .footerContent{
     padding: 30px 0;
     display: flex;
-    width: 80%;
+    width: 80vw;
     margin: auto;
 }
 
@@ -31,7 +31,7 @@ footer .item2 {
 
 footer .item2 .footerUL1 {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 footer .item2 .footerUL1 li {
@@ -41,7 +41,7 @@ footer .item2 .footerUL1 li {
 
 footer .item2 .footerUL2 {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-top: 60px;
 }
 
