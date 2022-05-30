@@ -2,7 +2,7 @@ import React from "react";
 import headPhone from "../../Images/headphon.png";
 import speaker from "../../Images/speaker.png";
 import speaker1 from "../../Images/speaker1.png";
-import "../../index.css";
+import "./cardbox.css";
 import "../../media.css";
 import { IoIosArrowForward } from 'react-icons/io';
 
