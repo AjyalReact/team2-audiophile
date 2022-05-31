@@ -5,10 +5,12 @@ import Footer from './Components/aliComponent/Footer';
 class App extends Component {
   render() {
     return (
-     <div className="container">
+     <div>
       <Card/>
-       <Footer/>
+        <Footer/>
       </div>
+   
+       
     );
   }
 }

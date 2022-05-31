@@ -4,12 +4,13 @@ import speaker from "../../Images/speaker.png";
 import speaker1 from "../../Images/speaker1.png";
 import "./cardbox.css";
 import "../../media.css";
-import { IoIosArrowForward } from 'react-icons/io';
+// import { IoIosArrowForward } from 'react-icons/io';
 
 export default class Card extends React.Component {
   render() {
     return (
       <>
+      <div className="container">
         <section className="container-card">
           <div className="card">
             <div className="cont-img">
@@ -17,7 +18,7 @@ export default class Card extends React.Component {
             </div>
             <div className="inner-box-card">
               <h2>headphones</h2>
-              <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a>
+              {/* <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a> */}
             </div>
           </div>
           <div className="card">
@@ -26,7 +27,7 @@ export default class Card extends React.Component {
             </div>
             <div className="inner-box-card">
               <h2>speakers</h2>
-              <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a>
+              {/* <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a> */}
             </div>
           </div>
           <div className="card">
@@ -35,7 +36,7 @@ export default class Card extends React.Component {
             </div>
             <div className="inner-box-card">
               <h2>earphones</h2>
-              <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a>
+              {/* <a href="www.google.com">shop <IoIosArrowForward className="icon"/></a> */}
             </div>
           </div>
         </section>
@@ -49,6 +50,7 @@ export default class Card extends React.Component {
             <div className="flex"><button className="btn-see">see product</button></div>
           </div>
         </section>
+        </div>
       </>
     );
   }
